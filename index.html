@@ -25,6 +25,11 @@
         <a-asset-item id="legoman" src="./assets/legoman.dae"></a-asset-item>
       </a-assets>
       <a-sky src="./assets/img_sample.jpg" rotation="0 -90 0"></a-sky>
+      
+      <a-camera position="0 0 20">
+  <a-entity id="myCursor" cursor="fuse:true; maxDistance:30; timeout:500;" scale="0.2 0.2 0.2" position="0 0 -5" geometry="primitive: ring" material="color: red; shader: flat; opacity:0.5" />
+</a-camera>
+      
     </a-scene>
   </body>
 </html>
